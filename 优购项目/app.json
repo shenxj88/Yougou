@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/search/search",
+    "pages/good_list/good_list",
+    "pages/goods_detail/goods_detail",
+    "pages/pay/pay",
+    "pages/auth/auth",
+    "pages/login/login",
+    "pages/order/order",
+    "pages/collect/collect",
+    "pages/feedback/feedback"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff2d4a",
+    "navigationBarTitleText": "项目搭建",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#151515",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icons/home.png",
+        "selectedIconPath": "./icons/home-select.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "商品分类",
+        "iconPath": "./icons/category.png",
+        "selectedIconPath": "./icons/category-select.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "./icons/cat.png", 
+        "selectedIconPath": "./icons/cat-select.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./icons/wode.png",
+        "selectedIconPath": "./icons/wode-select.png"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

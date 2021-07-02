@@ -1,0 +1,26 @@
+/**app.wxss**/
+@import './styles/iconfont.wxss';
+
+/* 在微信小程序中不支持通配符 * */
+page,view,text,swiper,seiper-item,image,navigator{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 如果你将一个元素的width设为100px,那么这100px会包含其它的border和padding，
+    内容区的实际宽度会是width减去border + padding的计算值。 */
+}
+/*
+ 主题颜色  
+ 1 less 中存在变量这个知识
+ 2 原生的css 和wxss也是支持变量
+*/
+page{
+    --themeColor:#ff2d4a;
+    /* 统一定义字体大小
+    1px = 2rpx
+    */
+    font-size: 28rpx;
+}
+image{
+    width: 100%;
+}

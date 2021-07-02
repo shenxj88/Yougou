@@ -1,0 +1,4 @@
+<!--pages/order/order.wxml-->
+ <tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+     内容
+</tabs>
